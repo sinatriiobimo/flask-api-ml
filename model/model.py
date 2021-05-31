@@ -6,7 +6,6 @@ import io
 import base64
 import os
 
-
 class Model:
     def __init__(self, pretrained_model= os.path.join(os.getcwd(),'model', 'final_model'), use_segmentation=False):
         self.pretrained_model= pretrained_model
