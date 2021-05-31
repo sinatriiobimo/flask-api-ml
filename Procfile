@@ -1,1 +1,1 @@
-web: gunicorn kikuma-api.wsgi:application --log-file - --log-level debug
+web: gunicorn wsgi:app

@@ -17,6 +17,3 @@ def predict():
     prediction= model.predict(request_json.get('image'))
 
     return jsonify(prediction)
-
-if __name__ == '__main__':
-    app.run()
